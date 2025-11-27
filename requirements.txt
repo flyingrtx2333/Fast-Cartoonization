@@ -1,0 +1,26 @@
+# White-box Cartoonization - PyTorch Implementation
+# Core dependencies
+
+# PyTorch (install appropriate version for your CUDA)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Image processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Superpixel segmentation (optional, for training)
+scikit-image>=0.21.0
+
+# Training utilities
+tqdm>=4.65.0
+tensorboard>=2.14.0
+
+# Model export (optional)
+onnx>=1.14.0
+onnxruntime>=1.15.0
+
+# CoreML export (optional, macOS only)
+# coremltools>=7.0
+
